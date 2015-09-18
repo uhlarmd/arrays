@@ -53,7 +53,7 @@ Write the following methods. Start with the tests, then use them to create your 
 5. same_ends?
 
     Given an array and a length n to check, return true if the n numbers at the start and end of the array are the same. For example, with the array
-    [5, 6, 45, 99, 23, 5 6], the ends are the same for n = 0 and n = 2, and false for n = 1 and n = 3. You may assume n is in the range 0..nums.length .
+    [5, 6, 45, 99, 23, 5, 6], the ends are the same for n = 0 and n = 2, and false for n = 1 and n = 3. You may assume n is in the range 0..nums.length .
 6. starry?
 
     A string is starry iff every individual '*' character not at the ends of the string is surrounded by the same character on both sides.
