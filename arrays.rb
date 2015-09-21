@@ -62,14 +62,14 @@ module Arrays
 	end
 
 	def plus_it(word, token)
-		word = []
-		token = []
-		(0...word.length).each do |element|
-			if word[n] != token[n]
-				word.pop()
-				word.push(+)
+		for i in 0..(word.length-token.length)
+			check = word(i..(i+token.length))
+			if check == token
+				i += token.length
+			else
+				word[i] = '+'
 			end
-			return word[]
+		end
 	end
 	
 end
